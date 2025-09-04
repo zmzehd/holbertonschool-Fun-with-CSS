@@ -1,0 +1,32 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  margin: 0 20px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon {
+  width: 22vw;
+  height: 60vh;
+  display: block;
+  background-image: url(0-sprite.png);
+}
+
+.i-css {
+  background-position: center;
+}
+
+.i-js {
+  background-position: right;
+}
